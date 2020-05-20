@@ -725,6 +725,9 @@ beginner_tutorials_SOURCE_DIR:STATIC=/home/utkarsh/catkin_ws/src/beginner_tutori
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/melodic/share/catkin/cmake
 
+//The directory containing a CMake configuration file for class_loader.
+class_loader_DIR:PATH=/opt/ros/melodic/share/class_loader/cmake
+
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
 
@@ -747,7 +750,7 @@ gazebo_ros_DIR:PATH=/opt/ros/melodic/share/gazebo_ros/cmake
 gazebo_tutorials_BINARY_DIR:STATIC=/home/utkarsh/catkin_ws/build/gazebo_ros_demos/gazebo_tutorials
 
 //Dependencies for the target
-gazebo_tutorials_LIB_DEPENDS:STATIC=general;/opt/ros/melodic/lib/libgazebo_ros_api_plugin.so;general;/opt/ros/melodic/lib/libgazebo_ros_paths_plugin.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/melodic/lib/libroslib.so;general;/opt/ros/melodic/lib/librospack.so;general;/usr/lib/x86_64-linux-gnu/libpython2.7.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/opt/ros/melodic/lib/libtf.so;general;/opt/ros/melodic/lib/libtf2_ros.so;general;/opt/ros/melodic/lib/libactionlib.so;general;/opt/ros/melodic/lib/libmessage_filters.so;general;/opt/ros/melodic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/opt/ros/melodic/lib/libxmlrpcpp.so;general;/opt/ros/melodic/lib/libtf2.so;general;/opt/ros/melodic/lib/librosconsole.so;general;/opt/ros/melodic/lib/librosconsole_log4cxx.so;general;/opt/ros/melodic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so;general;/opt/ros/melodic/lib/libroscpp_serialization.so;general;/opt/ros/melodic/lib/librostime.so;general;/opt/ros/melodic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;general;BulletSoftBody;general;BulletDynamics;general;BulletCollision;general;LinearMath;general;/usr/lib/x86_64-linux-gnu/libSimTKsimbody.so;general;/usr/lib/x86_64-linux-gnu/libSimTKmath.so;general;/usr/lib/x86_64-linux-gnu/libSimTKcommon.so;general;/usr/lib/x86_64-linux-gnu/libblas.so;general;/usr/lib/x86_64-linux-gnu/liblapack.so;general;/usr/lib/x86_64-linux-gnu/libblas.so;general;pthread;general;rt;general;dl;general;m;general;/usr/lib/x86_64-linux-gnu/libgazebo.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_client.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_gui.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_sensors.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_rendering.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_physics.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_ode.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_transport.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_msgs.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_util.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_common.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_opcode.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libprotobuf.so;general;-lpthread;general;/usr/lib/x86_64-linux-gnu/libsdformat.so;general;ignition-math4::ignition-math4;optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;general;ignition-math4::ignition-math4;general;ignition-transport4::ignition-transport4;general;ignition-msgs1::ignition-msgs1;general;ignition-common1::ignition-common1;general;ignition-fuel_tools1::ignition-fuel_tools1;
+gazebo_tutorials_LIB_DEPENDS:STATIC=general;/opt/ros/melodic/lib/libgazebo_ros_api_plugin.so;general;/opt/ros/melodic/lib/libgazebo_ros_paths_plugin.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/melodic/lib/libroslib.so;general;/opt/ros/melodic/lib/librospack.so;general;/usr/lib/x86_64-linux-gnu/libpython2.7.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/opt/ros/melodic/lib/libtf.so;general;/opt/ros/melodic/lib/libtf2_ros.so;general;/opt/ros/melodic/lib/libactionlib.so;general;/opt/ros/melodic/lib/libmessage_filters.so;general;/opt/ros/melodic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/opt/ros/melodic/lib/libxmlrpcpp.so;general;/opt/ros/melodic/lib/libtf2.so;general;/opt/ros/melodic/lib/librosconsole.so;general;/opt/ros/melodic/lib/librosconsole_log4cxx.so;general;/opt/ros/melodic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so;general;/opt/ros/melodic/lib/libroscpp_serialization.so;general;/opt/ros/melodic/lib/librostime.so;general;/opt/ros/melodic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;general;BulletSoftBody;general;BulletDynamics;general;BulletCollision;general;LinearMath;general;/usr/lib/x86_64-linux-gnu/libSimTKsimbody.so;general;/usr/lib/x86_64-linux-gnu/libSimTKmath.so;general;/usr/lib/x86_64-linux-gnu/libSimTKcommon.so;general;/usr/lib/x86_64-linux-gnu/libblas.so;general;/usr/lib/x86_64-linux-gnu/liblapack.so;general;/usr/lib/x86_64-linux-gnu/libblas.so;general;pthread;general;rt;general;dl;general;m;general;/usr/lib/x86_64-linux-gnu/libgazebo.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_client.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_gui.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_sensors.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_rendering.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_physics.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_ode.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_transport.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_msgs.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_util.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_common.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_opcode.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_ccd.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libprotobuf.so;general;-lpthread;general;/usr/lib/x86_64-linux-gnu/libsdformat.so;general;ignition-math4::ignition-math4;optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;general;ignition-math4::ignition-math4;general;ignition-transport4::ignition-transport4;general;ignition-msgs1::ignition-msgs1;general;ignition-common1::ignition-common1;general;ignition-fuel_tools1::ignition-fuel_tools1;
 
 //Value Computed by CMake
 gazebo_tutorials_SOURCE_DIR:STATIC=/home/utkarsh/catkin_ws/src/gazebo_ros_demos/gazebo_tutorials
@@ -858,6 +861,9 @@ message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
 //Path to a library.
 onelib:FILEPATH=/usr/lib/x86_64-linux-gnu/libsdformat.so
 
+//The directory containing a CMake configuration file for pluginlib.
+pluginlib_DIR:PATH=/opt/ros/melodic/share/pluginlib/cmake
+
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
 
@@ -878,6 +884,9 @@ rosgraph_DIR:PATH=/opt/ros/melodic/share/rosgraph/cmake
 
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/melodic/share/rosgraph_msgs/cmake
+
+//The directory containing a CMake configuration file for roslaunch.
+roslaunch_DIR:PATH=/opt/ros/melodic/share/roslaunch/cmake
 
 //The directory containing a CMake configuration file for roslib.
 roslib_DIR:PATH=/opt/ros/melodic/share/roslib/cmake
@@ -945,8 +954,17 @@ trajectory_msgs_DIR:PATH=/opt/ros/melodic/share/trajectory_msgs/cmake
 //The directory containing a CMake configuration file for urdf.
 urdf_DIR:PATH=/opt/ros/melodic/share/urdf/cmake
 
+//Value Computed by CMake
+urdf_tutorial_BINARY_DIR:STATIC=/home/utkarsh/catkin_ws/build/urdf_tutorial
+
+//Value Computed by CMake
+urdf_tutorial_SOURCE_DIR:STATIC=/home/utkarsh/catkin_ws/src/urdf_tutorial
+
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/melodic/share/xmlrpcpp/cmake
+
+//The directory containing a CMake configuration file for yaml.
+yaml_DIR:PATH=yaml_DIR-NOTFOUND
 
 
 ########################
@@ -963,6 +981,8 @@ AVCODEC_LDFLAGS_OTHER:INTERNAL=
 AVCODEC_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
 AVCODEC_LIBRARIES:INTERNAL=avcodec
 AVCODEC_LIBRARY_DIRS:INTERNAL=
+//ADVANCED property for variable: AVCODEC_LIBRARY_avcodec
+AVCODEC_LIBRARY_avcodec-ADVANCED:INTERNAL=1
 AVCODEC_LIBS:INTERNAL=
 AVCODEC_LIBS_L:INTERNAL=
 AVCODEC_LIBS_OTHER:INTERNAL=
@@ -996,6 +1016,8 @@ AVDEVICE_LDFLAGS_OTHER:INTERNAL=
 AVDEVICE_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
 AVDEVICE_LIBRARIES:INTERNAL=avdevice
 AVDEVICE_LIBRARY_DIRS:INTERNAL=
+//ADVANCED property for variable: AVDEVICE_LIBRARY_avdevice
+AVDEVICE_LIBRARY_avdevice-ADVANCED:INTERNAL=1
 AVDEVICE_LIBS:INTERNAL=
 AVDEVICE_LIBS_L:INTERNAL=
 AVDEVICE_LIBS_OTHER:INTERNAL=
@@ -1029,6 +1051,8 @@ AVFORMAT_LDFLAGS_OTHER:INTERNAL=
 AVFORMAT_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
 AVFORMAT_LIBRARIES:INTERNAL=avformat
 AVFORMAT_LIBRARY_DIRS:INTERNAL=
+//ADVANCED property for variable: AVFORMAT_LIBRARY_avformat
+AVFORMAT_LIBRARY_avformat-ADVANCED:INTERNAL=1
 AVFORMAT_LIBS:INTERNAL=
 AVFORMAT_LIBS_L:INTERNAL=
 AVFORMAT_LIBS_OTHER:INTERNAL=
@@ -1062,6 +1086,8 @@ AVUTIL_LDFLAGS_OTHER:INTERNAL=
 AVUTIL_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
 AVUTIL_LIBRARIES:INTERNAL=avutil
 AVUTIL_LIBRARY_DIRS:INTERNAL=
+//ADVANCED property for variable: AVUTIL_LIBRARY_avutil
+AVUTIL_LIBRARY_avutil-ADVANCED:INTERNAL=1
 AVUTIL_LIBS:INTERNAL=
 AVUTIL_LIBS_L:INTERNAL=
 AVUTIL_LIBS_OTHER:INTERNAL=
@@ -1272,7 +1298,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -1313,10 +1339,16 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CPPZMQ_INCLUDE_DIRS
+CPPZMQ_INCLUDE_DIRS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CURL_INCLUDE_DIR
 CURL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CURL_LIBRARY
 CURL_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: DL_INCLUDE_DIRS
+DL_INCLUDE_DIRS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: DL_LIBRARIES
+DL_LIBRARIES-ADVANCED:INTERNAL=1
 //Details about finding AVCODEC
 FIND_PACKAGE_MESSAGE_DETAILS_AVCODEC:INTERNAL=[true][v()]
 //Details about finding AVDEVICE
@@ -1338,7 +1370,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.1()]
 //Details about finding Protobuf
 FIND_PACKAGE_MESSAGE_DETAILS_Protobuf:INTERNAL=[/usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread;-lpthread][/usr/include][v3.0.0(2.3.0)]
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python2][v2.7.15()]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python2][v2.7.17()]
 //Details about finding SWSCALE
 FIND_PACKAGE_MESSAGE_DETAILS_SWSCALE:INTERNAL=[true][v()]
 //Details about finding Simbody
@@ -1357,6 +1389,10 @@ FIND_PACKAGE_MESSAGE_DETAILS_ZeroMQ:INTERNAL=[true][v(4)]
 FREEIMAGE_COMPILES:INTERNAL=TRUE
 //Result of TRY_RUN
 FREEIMAGE_RUNS:INTERNAL=1
+//ADVANCED property for variable: FreeImage_INCLUDE_DIRS
+FreeImage_INCLUDE_DIRS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: FreeImage_LIBRARIES
+FreeImage_LIBRARIES-ADVANCED:INTERNAL=1
 GMOCK_FROM_SOURCE_FOUND:INTERNAL=TRUE
 GMOCK_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/src/googletest/googlemock/include
 GMOCK_FROM_SOURCE_LIBRARIES:INTERNAL=gmock
@@ -1387,6 +1423,16 @@ GTS_LDFLAGS_OTHER:INTERNAL=-pthread;-Wl,--export-dynamic;-pthread
 GTS_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
 GTS_LIBRARIES:INTERNAL=gts;m;gthread-2.0;gmodule-2.0;glib-2.0
 GTS_LIBRARY_DIRS:INTERNAL=
+//ADVANCED property for variable: GTS_LIBRARY_glib-2.0
+GTS_LIBRARY_glib-2.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GTS_LIBRARY_gmodule-2.0
+GTS_LIBRARY_gmodule-2.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GTS_LIBRARY_gthread-2.0
+GTS_LIBRARY_gthread-2.0-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GTS_LIBRARY_gts
+GTS_LIBRARY_gts-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GTS_LIBRARY_m
+GTS_LIBRARY_m-ADVANCED:INTERNAL=1
 GTS_LIBS:INTERNAL=
 GTS_LIBS_L:INTERNAL=
 GTS_LIBS_OTHER:INTERNAL=
@@ -1420,6 +1466,8 @@ JSONCPP_LDFLAGS_OTHER:INTERNAL=
 JSONCPP_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
 JSONCPP_LIBRARIES:INTERNAL=jsoncpp
 JSONCPP_LIBRARY_DIRS:INTERNAL=
+//ADVANCED property for variable: JSONCPP_LIBRARY_jsoncpp
+JSONCPP_LIBRARY_jsoncpp-ADVANCED:INTERNAL=1
 JSONCPP_LIBS:INTERNAL=
 JSONCPP_LIBS_L:INTERNAL=
 JSONCPP_LIBS_OTHER:INTERNAL=
@@ -1669,6 +1717,8 @@ SWSCALE_LDFLAGS_OTHER:INTERNAL=
 SWSCALE_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
 SWSCALE_LIBRARIES:INTERNAL=swscale
 SWSCALE_LIBRARY_DIRS:INTERNAL=
+//ADVANCED property for variable: SWSCALE_LIBRARY_swscale
+SWSCALE_LIBRARY_swscale-ADVANCED:INTERNAL=1
 SWSCALE_LIBS:INTERNAL=
 SWSCALE_LIBS_L:INTERNAL=
 SWSCALE_LIBS_OTHER:INTERNAL=
@@ -1706,6 +1756,8 @@ TINYXML2_LDFLAGS_OTHER:INTERNAL=
 TINYXML2_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
 TINYXML2_LIBRARIES:INTERNAL=tinyxml2
 TINYXML2_LIBRARY_DIRS:INTERNAL=
+//ADVANCED property for variable: TINYXML2_LIBRARY_tinyxml2
+TINYXML2_LIBRARY_tinyxml2-ADVANCED:INTERNAL=1
 TINYXML2_LIBS:INTERNAL=
 TINYXML2_LIBS_L:INTERNAL=
 TINYXML2_LIBS_OTHER:INTERNAL=
@@ -1739,6 +1791,8 @@ UUID_LDFLAGS_OTHER:INTERNAL=
 UUID_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
 UUID_LIBRARIES:INTERNAL=uuid
 UUID_LIBRARY_DIRS:INTERNAL=
+//ADVANCED property for variable: UUID_LIBRARY_uuid
+UUID_LIBRARY_uuid-ADVANCED:INTERNAL=1
 UUID_LIBS:INTERNAL=
 UUID_LIBS_L:INTERNAL=
 UUID_LIBS_OTHER:INTERNAL=
@@ -1772,6 +1826,8 @@ YAML_LDFLAGS_OTHER:INTERNAL=
 YAML_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
 YAML_LIBRARIES:INTERNAL=yaml
 YAML_LIBRARY_DIRS:INTERNAL=
+//ADVANCED property for variable: YAML_LIBRARY_yaml
+YAML_LIBRARY_yaml-ADVANCED:INTERNAL=1
 YAML_LIBS:INTERNAL=
 YAML_LIBS_L:INTERNAL=
 YAML_LIBS_OTHER:INTERNAL=
@@ -1805,6 +1861,10 @@ ZIP_LDFLAGS_OTHER:INTERNAL=
 ZIP_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
 ZIP_LIBRARIES:INTERNAL=zip;z
 ZIP_LIBRARY_DIRS:INTERNAL=
+//ADVANCED property for variable: ZIP_LIBRARY_z
+ZIP_LIBRARY_z-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZIP_LIBRARY_zip
+ZIP_LIBRARY_zip-ADVANCED:INTERNAL=1
 ZIP_LIBS:INTERNAL=
 ZIP_LIBS_L:INTERNAL=
 ZIP_LIBS_OTHER:INTERNAL=
@@ -1838,6 +1898,8 @@ ZeroMQ_LDFLAGS_OTHER:INTERNAL=
 ZeroMQ_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
 ZeroMQ_LIBRARIES:INTERNAL=zmq
 ZeroMQ_LIBRARY_DIRS:INTERNAL=
+//ADVANCED property for variable: ZeroMQ_LIBRARY_zmq
+ZeroMQ_LIBRARY_zmq-ADVANCED:INTERNAL=1
 ZeroMQ_LIBS:INTERNAL=
 ZeroMQ_LIBS_L:INTERNAL=
 ZeroMQ_LIBS_OTHER:INTERNAL=

@@ -137,6 +137,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/utkarsh/catkin_ws/build/beginner_tutorials/cmake_install.cmake")
   include("/home/utkarsh/catkin_ws/build/gazebo_ros_demos/gazebo_tutorials/cmake_install.cmake")
   include("/home/utkarsh/catkin_ws/build/testbot_description/cmake_install.cmake")
+  include("/home/utkarsh/catkin_ws/build/urdf_tutorial/cmake_install.cmake")
 
 endif()
 

@@ -4,5 +4,5 @@ Name: testbot_description
 Description: Description of testbot_description
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/utkarsh/catkin_ws/devel/lib 
+Libs: -L${prefix}/lib 
 Requires: 
