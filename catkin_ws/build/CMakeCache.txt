@@ -605,6 +605,9 @@ OGRE_Volume_LIBRARY_FWK:STRING=NOTFOUND
 //x
 OGRE_Volume_LIBRARY_REL:FILEPATH=/usr/lib/x86_64-linux-gnu/libOgreVolume.so
 
+//The directory containing a CMake configuration file for OpenCV.
+OpenCV_DIR:PATH=/usr/share/OpenCV
+
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
@@ -719,6 +722,9 @@ actionlib_msgs_DIR:PATH=/opt/ros/melodic/share/actionlib_msgs/cmake
 //Value Computed by CMake
 beginner_tutorials_BINARY_DIR:STATIC=/home/utkarsh/catkin_ws/build/beginner_tutorials
 
+//The directory containing a CMake configuration file for beginner_tutorials.
+beginner_tutorials_DIR:PATH=/home/utkarsh/catkin_ws/devel/share/beginner_tutorials/cmake
+
 //Value Computed by CMake
 beginner_tutorials_SOURCE_DIR:STATIC=/home/utkarsh/catkin_ws/src/beginner_tutorials
 
@@ -731,8 +737,17 @@ class_loader_DIR:PATH=/opt/ros/melodic/share/class_loader/cmake
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
 
+//The directory containing a CMake configuration file for cv_bridge.
+cv_bridge_DIR:PATH=/opt/ros/melodic/share/cv_bridge/cmake
+
 //The directory containing a CMake configuration file for dynamic_reconfigure.
 dynamic_reconfigure_DIR:PATH=/opt/ros/melodic/share/dynamic_reconfigure/cmake
+
+//Value Computed by CMake
+gaitech_edu_BINARY_DIR:STATIC=/home/utkarsh/catkin_ws/build/gaitech_edu
+
+//Value Computed by CMake
+gaitech_edu_SOURCE_DIR:STATIC=/home/utkarsh/catkin_ws/src/gaitech_edu
 
 //The directory containing a CMake configuration file for gazebo.
 gazebo_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gazebo
@@ -843,11 +858,23 @@ ignition-msgs1_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/ignition-msgs1
 //The directory containing a CMake configuration file for ignition-transport4.
 ignition-transport4_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/ignition-transport4
 
+//The directory containing a CMake configuration file for image_transport.
+image_transport_DIR:PATH=/opt/ros/melodic/share/image_transport/cmake
+
 //The directory containing a CMake configuration file for jsoncpp.
 jsoncpp_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/jsoncpp
 
+//Dependencies for the target
+laserscan_lib_LIB_DEPENDS:STATIC=general;/opt/ros/melodic/lib/libcv_bridge.so;general;/usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0;general;/usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0;general;/usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0;general;/opt/ros/melodic/lib/libimage_transport.so;general;/opt/ros/melodic/lib/libmessage_filters.so;general;/opt/ros/melodic/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/melodic/lib/libroscpp.so;general;/opt/ros/melodic/lib/librosconsole.so;general;/opt/ros/melodic/lib/librosconsole_log4cxx.so;general;/opt/ros/melodic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/melodic/lib/libxmlrpcpp.so;general;/opt/ros/melodic/lib/libroslib.so;general;/opt/ros/melodic/lib/librospack.so;general;/usr/lib/x86_64-linux-gnu/libpython2.7.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/opt/ros/melodic/lib/libroscpp_serialization.so;general;/opt/ros/melodic/lib/librostime.so;general;/opt/ros/melodic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;general;utility_lib;
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
+
+//Value Computed by CMake
+listener_extend_BINARY_DIR:STATIC=/home/utkarsh/catkin_ws/build/listener_extend
+
+//Value Computed by CMake
+listener_extend_SOURCE_DIR:STATIC=/home/utkarsh/catkin_ws/src/listener_extend
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/melodic/share/message_filters/cmake
@@ -858,11 +885,32 @@ message_generation_DIR:PATH=/opt/ros/melodic/share/message_generation/cmake
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
 
+//Value Computed by CMake
+my_pkg_BINARY_DIR:STATIC=/home/utkarsh/catkin_ws/build/my_pkg
+
+//Value Computed by CMake
+my_pkg_SOURCE_DIR:STATIC=/home/utkarsh/catkin_ws/src/my_pkg
+
+//Value Computed by CMake
+numpy_tutorial_BINARY_DIR:STATIC=/home/utkarsh/catkin_ws/build/numpy_tutorial
+
+//Value Computed by CMake
+numpy_tutorial_SOURCE_DIR:STATIC=/home/utkarsh/catkin_ws/src/numpy_tutorial
+
 //Path to a library.
 onelib:FILEPATH=/usr/lib/x86_64-linux-gnu/libsdformat.so
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/melodic/share/pluginlib/cmake
+
+//The directory containing a CMake configuration file for pocketsphinx.
+pocketsphinx_DIR:PATH=pocketsphinx_DIR-NOTFOUND
+
+//Value Computed by CMake
+ros_essentials_cpp_BINARY_DIR:STATIC=/home/utkarsh/catkin_ws/build/ros_essentials_cpp
+
+//Value Computed by CMake
+ros_essentials_cpp_SOURCE_DIR:STATIC=/home/utkarsh/catkin_ws/src/ros_essentials_cpp
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
@@ -896,6 +944,9 @@ rospack_DIR:PATH=/opt/ros/melodic/share/rospack/cmake
 
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/opt/ros/melodic/share/rospy/cmake
+
+//The directory containing a CMake configuration file for rospy_tutorials.
+rospy_tutorials_DIR:PATH=/opt/ros/melodic/share/rospy_tutorials/cmake
 
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/melodic/share/rostime/cmake
@@ -951,6 +1002,12 @@ tf_DIR:PATH=/opt/ros/melodic/share/tf/cmake
 //The directory containing a CMake configuration file for trajectory_msgs.
 trajectory_msgs_DIR:PATH=/opt/ros/melodic/share/trajectory_msgs/cmake
 
+//Value Computed by CMake
+turtlesim_cleaner_BINARY_DIR:STATIC=/home/utkarsh/catkin_ws/build/turtlesim_cleaner
+
+//Value Computed by CMake
+turtlesim_cleaner_SOURCE_DIR:STATIC=/home/utkarsh/catkin_ws/src/turtlesim_cleaner
+
 //The directory containing a CMake configuration file for urdf.
 urdf_DIR:PATH=/opt/ros/melodic/share/urdf/cmake
 
@@ -959,6 +1016,9 @@ urdf_tutorial_BINARY_DIR:STATIC=/home/utkarsh/catkin_ws/build/urdf_tutorial
 
 //Value Computed by CMake
 urdf_tutorial_SOURCE_DIR:STATIC=/home/utkarsh/catkin_ws/src/urdf_tutorial
+
+//Dependencies for target
+utility_lib_LIB_DEPENDS:STATIC=
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/melodic/share/xmlrpcpp/cmake
@@ -1298,7 +1358,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -1365,6 +1425,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_DL:INTERNAL=[true][v()]
 FIND_PACKAGE_MESSAGE_DETAILS_GTS:INTERNAL=[true][v()]
 //Details about finding JSONCPP
 FIND_PACKAGE_MESSAGE_DETAILS_JSONCPP:INTERNAL=[true][v()]
+//Details about finding OpenCV
+FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr][v3.2.0()]
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.1()]
 //Details about finding Protobuf
