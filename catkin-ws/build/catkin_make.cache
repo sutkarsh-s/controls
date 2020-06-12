@@ -1,0 +1,2 @@
+automi_simulation/automi_control:automi_simulation/automi_description:automi_simulation/automi_gazebo:automi_v1:baxter_common/baxter_common:baxter_common/baxter_core_msgs:baxter_common/baxter_description:baxter_common/baxter_maintenance_msgs:baxter_common/rethink_ee_description:gazebo_tutorials:ros_essentials_cpp:rrbot_control:rrbot_description:rrbot_gazebo:usb_cam
+-DCATKIN_DEVEL_PREFIX=/home/utkarsh/catkin-ws/devel -DCMAKE_INSTALL_PREFIX=/home/utkarsh/catkin-ws/install -G Unix Makefiles

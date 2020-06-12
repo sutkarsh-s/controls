@@ -1,0 +1,8 @@
+prefix=/home/utkarsh/catkin-ws/devel
+
+Name: automi_v1
+Description: Description of automi_v1
+Version: 0.0.0
+Cflags: -I/home/utkarsh/catkin-ws/devel/include -I/home/utkarsh/catkin-ws/src/automi_v1/include -I/home/utkarsh/catkin-ws/src/automi_v1/include/mapping -I/home/utkarsh/catkin-ws/src/automi_v1/include/vio -I/home/utkarsh/catkin-ws/src/automi_v1/include/depth -I/home/utkarsh/catkin-ws/src/automi_v1/include/kalman -I/home/utkarsh/catkin-ws/src/automi_v1/include/automi_v1
+Libs: -L${prefix}/lib -lhuro
+Requires: roscpp rospy std_msgs sensor_msgs image_transport cv_bridge geometry_msgs message_runtime

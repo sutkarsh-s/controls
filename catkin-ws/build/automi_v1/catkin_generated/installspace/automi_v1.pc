@@ -1,0 +1,8 @@
+prefix=/home/utkarsh/catkin-ws/install
+
+Name: automi_v1
+Description: Description of automi_v1
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lhuro
+Requires: roscpp rospy std_msgs sensor_msgs image_transport cv_bridge geometry_msgs message_runtime
